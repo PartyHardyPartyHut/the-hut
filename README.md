@@ -1,2 +1,1 @@
-# the-hut
-the party hut
+website and lit projects
