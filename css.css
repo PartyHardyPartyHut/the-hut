@@ -66,6 +66,7 @@ body
 }
 .friend
 {
-	width: 30%;
-	height: 30%;
+	width:30%;
+	height:30%;
+	margin:auto;
 }
