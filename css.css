@@ -68,5 +68,6 @@ body
 {
 	width:200px;
 	height:350px;
-	margin:auto;
+	display: block;
+        margin: 0 auto;
 }
