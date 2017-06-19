@@ -52,7 +52,6 @@ unsigned int class bank         //class start
      
      string name;
      unsigned int bankMoney;
-}
 };
 
 unsigned int money;
