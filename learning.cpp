@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-unsigned int class bank()          //class start 
+unsigned int class bank         //class start 
 {
      public:
      
