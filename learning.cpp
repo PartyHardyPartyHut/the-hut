@@ -1,44 +1,86 @@
 #include<iostream>
 using namespace std;
 
-int main(){
-     //declaring array
-      int array[5];
-      cout<<"Enter 5 numbers randomly : "<<endl;
-      for(int i=0; i<5; i++)
-      {
-     //Taking input in array  
-       cin>>array[i];        
-      }  
-      cout<<endl; 
-      cout<<"Input array is: "<<endl;
-      
-      for(int j=0; j<5; j++)
-      {
-       //Displaying Array 
-       cout<<"\t\t\tValue at "<<j<<" Index: "<<array[j]<<endl;         
-      }   
-      cout<<endl;
-    // Bubble Sort Starts Here
-     int temp;
-     for(int i2=0; i2<=4; i2++)
-   {
-     for(int j=0; j<4; j++)
+int class bank() 
+{
+     public:
+     int setup(int x)
      {
-        //Swapping element in if statement    
-           if(array[j]>array[j+1])
-       {
-        temp=array[j];
-        array[j]=array[j+1];
-        array[j+1]=temp;        
-       }
-     }         
-   } 
-   // Displaying Sorted array
-      cout<<"  Sorted Array is: "<<endl;
-     for(int i3=0; i3<5; i3++)
-   {
-    cout<<"\t\t\tValue at "<<i3<<" Index: "<<array[i3]<<endl;  
-   }   
-return 0;
+          int y;
+          
+          cout << "please enter your name" << endl;
+          cin >> name;
+          
+          cout << "how much would you like to put into your account?" << endl;
+          cin >> y;
+          x -= y;
+          bankMoney += y;
+          
+          cout << "thanks for making your account " << name << endl;
+          
+          return x;
+     }
+     
+     void balance()
+     {
+          cout << "your balance is " << bankMoney << endl;
+     }
+     
+     int withdraw (int m)
+     {
+          int p;
+          cout << "how much would you like to withdraw" << endl;
+          cin >> p; 
+          bankMoney -= p;
+          m += p;
+          return p;
+     }
+     int deposit (int t)
+     {
+          cout << "how much would you like to depisot    
+     }
+     
+     private:
+     
+     string name;
+     int bankMoney;
+}
+};
+
+int money;
+string input = poop;
+
+int main() 
+{
+     bank main;
+     money = main.setup(money);
+     
+     cout << "you have $" << money << ".00" << endl;
+     cout << - \n - \n - \n - \n - \n << endl;
+     cout << "opening account" << endl;
+     
+     while (1=1)
+     {
+          cout << "please type either \n leave \n balance \n withdraw \n deposit"
+          cin >> input;
+          if (input == leave)
+          {
+           break;    
+          }
+          if (input == balance)
+          {
+                main.balance();    
+          }
+          if (input == withdraw)
+          {
+               money = main.withdaw(money)    
+          }
+          if (input == deposit)
+          {
+               money = (main.deposit)
+          }
+          
+          
+     }    
+     return 0;
 }
