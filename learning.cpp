@@ -64,7 +64,7 @@ unsigned int main()
      money = main.setup(money);
      
      cout << "you have $" << money << ".00" << endl;
-     cout << - \n - \n - \n - \n - \n << endl;
+     cout << "- \n - \n - \n - \n - \n" << endl;
      cout << "opening account" << endl;
      
      while (1=1)
