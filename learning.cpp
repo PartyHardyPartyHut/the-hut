@@ -1,12 +1,14 @@
 #include<iostream>
 using namespace std;
 
-int class bank() 
+unsigned int class bank()          //class start 
 {
      public:
-     int setup(int x)
+     
+     unsigned int setup(unsigned int x)
      {
-          int y;
+          
+          unsigned int y;
           
           cout << "please enter your name" << endl;
           cin >> name;
@@ -26,31 +28,37 @@ int class bank()
           cout << "your balance is " << bankMoney << endl;
      }
      
-     int withdraw (int m)
+     unsigned int withdraw (unsigned int m)
      {
-          int p;
+          unsigned int p;
           cout << "how much would you like to withdraw" << endl;
           cin >> p; 
           bankMoney -= p;
           m += p;
           return p;
+          cout << "transaction complete" << endl;
      }
-     int deposit (int t)
+    unsigned int deposit (int t)
      {
-          cout << "how much would you like to depisot    
+         unsigned int u
+         cout << "how much would you like to deposit" << endl;
+         cin >> u;
+         t -= u;
+         bankMoney += u;
+         cout << "transaction complete" << endl;
      }
      
      private:
      
      string name;
-     int bankMoney;
+     unsigned int bankMoney;
 }
 };
 
-int money;
+unsigned int money;
 string input = poop;
 
-int main() 
+unsigned int main() 
 {
      bank main;
      money = main.setup(money);
@@ -61,7 +69,7 @@ int main()
      
      while (1=1)
      {
-          cout << "please type either \n leave \n balance \n withdraw \n deposit"
+          cout << "please type either \n pockets \n leave \n balance \n withdraw \n deposit \n"
           cin >> input;
           if (input == leave)
           {
@@ -79,7 +87,10 @@ int main()
           {
                money = (main.deposit)
           }
-          
+          if (money == pockets) {
+               cout << money << endl;    
+          }
+          input = 0;
           
      }    
      return 0;
