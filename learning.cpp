@@ -57,7 +57,7 @@ unsigned int class bank         //class start
 unsigned int money;
 string input = poop;
 
-unsigned int main() 
+int main() 
 {
      bank main;
      money = main.setup(money);
